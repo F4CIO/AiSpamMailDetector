@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CraftSynth.AiSpamMailDetector": {
+      "commandName": "Project",
+      "commandLineArgs": "\"ExampleSpamMail-UsedInProjectPropertiesDebugOptions.eml\""
+    }
+  }
+}

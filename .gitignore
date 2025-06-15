@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CraftSynth.AiSpamMailDetector/obj
+/CraftSynth.AiSpamMailDetector.Engine/bin/Debug/net8.0
+/.vs/CraftSynth.VirusScanner
+/CraftSynth.AiSpamMailDetector.Engine/obj
+/CraftSynth.BuildingBlocks.Generated/obj
+/CraftSynth.VirusScanner/obj
+/CraftSynth.AiSpamMailDetector/bin/Debug/net8.0
+/CraftSynth.BuildingBlocks.Generated/bin/Debug/net6.0
+/CraftSynth.VirusScanner/bin/Debug/net8.0

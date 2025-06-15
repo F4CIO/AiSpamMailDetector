@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CraftSynth.VirusScanner.ini" />
+    <None Remove="ExampleSpamMail-UsedInProjectPropertiesDebugOptions.eml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="CraftSynth.VirusScanner.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ExampleSpamMail-UsedInProjectPropertiesDebugOptions.eml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Costura.Fody" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>compile; runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MimeKit" Version="4.12.0" />
+    <PackageReference Include="MsgReader" Version="5.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CraftSynth.AiSpamMailDetector.Engine\CraftSynth.AiSpamMailDetector.Engine.csproj" />
+    <ProjectReference Include="..\CraftSynth.BuildingBlocks.Generated\CraftSynth.BuildingBlocks.Generated.csproj" />
+  </ItemGroup>
+
+</Project>

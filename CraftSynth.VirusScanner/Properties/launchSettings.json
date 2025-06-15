@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CraftSynth.VirusScanner": {
+      "commandName": "Project",
+      "commandLineArgs": "\"ExampleSpamMail-UsedInProjectPropertiesDebugOptions.eml\""
+    }
+  }
+}

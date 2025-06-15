@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraftSynth.VirusScanner", "CraftSynth.VirusScanner\CraftSynth.VirusScanner.csproj", "{10DE0D8A-A8AD-4334-8E55-F37F25129162}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CraftSynth.AiSpamMailDetector.Engine", "CraftSynth.AiSpamMailDetector.Engine\CraftSynth.AiSpamMailDetector.Engine.csproj", "{C05A0322-B150-44C0-9D39-9C93B06E34BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CraftSynth.BuildingBlocks.Generated", "CraftSynth.BuildingBlocks.Generated\CraftSynth.BuildingBlocks.Generated.csproj", "{1C430C9A-BBFF-4079-B074-B7BE7F332D07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraftSynth.AiSpamMailDetector", "CraftSynth.AiSpamMailDetector\CraftSynth.AiSpamMailDetector.csproj", "{0A9D1B2B-AF40-4B18-AF5C-195864A76E69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CraftSynth_Debug_With_Full_Building_Blocks|Any CPU = CraftSynth_Debug_With_Full_Building_Blocks|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10DE0D8A-A8AD-4334-8E55-F37F25129162}.CraftSynth_Debug_With_Full_Building_Blocks|Any CPU.ActiveCfg = Debug|Any CPU
+		{10DE0D8A-A8AD-4334-8E55-F37F25129162}.CraftSynth_Debug_With_Full_Building_Blocks|Any CPU.Build.0 = Debug|Any CPU
+		{10DE0D8A-A8AD-4334-8E55-F37F25129162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10DE0D8A-A8AD-4334-8E55-F37F25129162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10DE0D8A-A8AD-4334-8E55-F37F25129162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10DE0D8A-A8AD-4334-8E55-F37F25129162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05A0322-B150-44C0-9D39-9C93B06E34BB}.CraftSynth_Debug_With_Full_Building_Blocks|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05A0322-B150-44C0-9D39-9C93B06E34BB}.CraftSynth_Debug_With_Full_Building_Blocks|Any CPU.Build.0 = Debug|Any CPU
+		{C05A0322-B150-44C0-9D39-9C93B06E34BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05A0322-B150-44C0-9D39-9C93B06E34BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05A0322-B150-44C0-9D39-9C93B06E34BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05A0322-B150-44C0-9D39-9C93B06E34BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C430C9A-BBFF-4079-B074-B7BE7F332D07}.CraftSynth_Debug_With_Full_Building_Blocks|Any CPU.ActiveCfg = CraftSynth_Debug_With_Full_Building_Blocks|Any CPU
+		{1C430C9A-BBFF-4079-B074-B7BE7F332D07}.CraftSynth_Debug_With_Full_Building_Blocks|Any CPU.Build.0 = CraftSynth_Debug_With_Full_Building_Blocks|Any CPU
+		{1C430C9A-BBFF-4079-B074-B7BE7F332D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C430C9A-BBFF-4079-B074-B7BE7F332D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C430C9A-BBFF-4079-B074-B7BE7F332D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C430C9A-BBFF-4079-B074-B7BE7F332D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9D1B2B-AF40-4B18-AF5C-195864A76E69}.CraftSynth_Debug_With_Full_Building_Blocks|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9D1B2B-AF40-4B18-AF5C-195864A76E69}.CraftSynth_Debug_With_Full_Building_Blocks|Any CPU.Build.0 = Debug|Any CPU
+		{0A9D1B2B-AF40-4B18-AF5C-195864A76E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9D1B2B-AF40-4B18-AF5C-195864A76E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9D1B2B-AF40-4B18-AF5C-195864A76E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9D1B2B-AF40-4B18-AF5C-195864A76E69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA7B11F7-8D87-4C40-943A-E4A50109E4E6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <Configurations>Debug;Release;CraftSynth_Debug_With_Full_Building_Blocks</Configurations>
+  </PropertyGroup>
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="echo Current Configuration is: $(Configuration)&#xD;&#xA;echo Current ConfigurationName is: $(ConfigurationName)&#xD;&#xA;&#xD;&#xA;IF NOT &quot;$(ConfigurationName)&quot;==&quot;CraftSynth_Debug_With_Full_Building_Blocks&quot; $(ProjectDir)Regenerator.BuildMinimalVersion.exe&#xD;&#xA;IF &quot;$(ConfigurationName)&quot;==&quot;CraftSynth_Debug_With_Full_Building_Blocks&quot; $(ProjectDir)Regenerator.LinkFullVersion.exe" />
+  </Target>
+  <ItemGroup>
+    <PackageReference Include="Costura.Fody" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>compile; runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="ZetaLongPaths.NetStandard" Version="1.0.0.35" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CraftSynth.BuildingBlocks.Common.DateAndTime.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CraftSynth.BuildingBlocks.Common.ExtenderClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CraftSynth.BuildingBlocks.Common.Misc.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CraftSynth.BuildingBlocks.IO.FileSystem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CraftSynth.BuildingBlocks.Logging.CustomTraceLog.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CraftSynth.BuildingBlocks.Logging.Misc.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CraftSynth.BuildingBlocks.UI.Console.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CraftSynth.BuildingBlocks.Validation.cs" />
+  </ItemGroup>
+</Project>
