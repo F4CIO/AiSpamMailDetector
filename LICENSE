@@ -1,3 +1,10 @@
+If you are using ML_Model.zip (located in CraftSynth.AiSpamMailDetector.Engine) 
+this license applies as I used that dataset to train/produce that model file:
+https://github.com/realprogrammersusevim/email-dataset/tree/main?tab=License-1-ov-file
+
+If you are using just source code and/or training model on your own dataset then
+MIT license applies:
+
 MIT License
 
 Copyright (c) 2025 F4CIO (spare-time projects only)
